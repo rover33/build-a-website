@@ -7,33 +7,59 @@
 body {
      font-family: 'Lobster';
      background: gray;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+
 }
 
 h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: bold;
     text-align: center;
 }
 
+h2 {font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+h3 {font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+h4 {
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+li {flex-basis: 50%;
+    font-size: 1.5rem;
+
+}
+
 .tabs {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     margin: 20px;
+}
+
+.para {
+    font-size: 2rem;
 }
 
 .margin {
     margin: 10px;
 }
 
-footer {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around; */
-    position: absolute;
+.socialmedia {
+    height: 2.5rem;
 }
 
-.socialmedia {
-    height: 5rem;
+#gmg {
+    height: 50%;
+    width: 50%;
+    margin: 1%;
 }
 
