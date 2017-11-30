@@ -14,6 +14,8 @@ body {
      justify-content: space-between;
 
 }
+a{color:red;
+}
 
 h1 {
     font-size: 4rem;
@@ -23,19 +25,26 @@ h1 {
 
 h2 {font-size: 2.5rem;
     text-decoration: underline;
+    text-align: center;
+    margin: 0;
 }
 
 h3 {font-size: 2.5rem;
     text-decoration: underline;
+    text-align: center;
+    margin: 0;
 }
 
 h4 {
     font-size: 2.5rem;
     text-decoration: underline;
+    text-align: center;
+    margin: 0;
 }
 
 li {flex-basis: 50%;
     font-size: 1.5rem;
+    margin: 0;
 
 }
 
@@ -46,8 +55,15 @@ li {flex-basis: 50%;
 }
 
 .para {
+    margin: 5rem;
+}
+
+.pp{ font-size: 2rem;
+}
+
+p {
     font-size: 2rem;
-    height: 5rem;
+    margin: 0;
 }
 
 .margin {
@@ -61,6 +77,12 @@ li {flex-basis: 50%;
 #gmg {
     height: 50%;
     width: 50%;
-    margin: 1%;
+    display: block;
+    margin: auto;
+    padding-bottom: 2rem;
 }
 
+.ghost {
+    margin: 0;
+    padding-top: 4rem;
+}
