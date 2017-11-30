@@ -1,0 +1,39 @@
+{
+     -moz-box-sizing: border-box; 
+     -webkit-box-sizing: border-box; 
+     box-sizing: border-box; 
+}
+
+body {
+     font-family: 'Lobster';
+     background: gray;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tabs {
+    font-size: 2rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.margin {
+    margin: 10px;
+}
+
+footer {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; */
+    position: absolute;
+}
+
+.socialmedia {
+    height: 5rem;
+}
+
